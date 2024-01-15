@@ -13,8 +13,8 @@ body{
     border: 0px;
     color: #FFF;
     text-align: center;
-    font-size: 12px;
-    font-weight: 400;
+    font-size: 15px;
+    font-weight: 600;
     border-radius: 8px;
     background: #FF5400;
 }
@@ -86,9 +86,60 @@ body{
     font-size: 14px;
     font-weight: 500;
 }
-.option-bar .btn-primary{
+.option-bar .find-button{
+    width: 120px;
+    height: 35px;
+    border-radius: 8px;
+    background: #FFF;
+    padding-left: 10px;
+    border: 0px;
+    color: #FFF;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: #FF5400;
     margin-left: 10px;
 }
+
+/* Popular Style */
+.popular-section{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.popular-section .popular-tour{
+    max-width: 600px;
+    padding-right: 70px;
+    color: rgba(19, 19, 24, 0.70);
+    line-height: 32px;
+}
+.popular-section .popular-tour h3{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.popular-section .advertise-picture img{
+    width: 540px;
+    height: 550px;
+    border-radius: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
