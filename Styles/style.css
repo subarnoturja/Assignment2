@@ -3,7 +3,6 @@
 body{
     font-family: 'Mulish', sans-serif;
 }
-
 .btn-primary{
     width: 120px;
     height: 35px;
@@ -18,8 +17,16 @@ body{
     border-radius: 8px;
     background: #FF5400;
 }
+.all-heading{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800; 
+}
+.all-para{
+    color: rgba(19, 19, 24, 0.70);
+}
 
-/* Banner Style */
+/* Banner Styling */
 .banner-section{
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80), rgba(19, 19, 24, 0.00)), url('../Images/Group13.png');
     background-size: cover;
@@ -102,7 +109,7 @@ body{
     margin-left: 10px;
 }
 
-/* Popular Style */
+/* Popular Styling */
 .popular-section{
     display: flex;
     justify-content: space-around;
@@ -113,18 +120,43 @@ body{
 .popular-section .popular-tour{
     max-width: 600px;
     padding-right: 70px;
-    color: rgba(19, 19, 24, 0.70);
     line-height: 32px;
-}
-.popular-section .popular-tour h3{
-    color: #131318;
-    font-size: 40px;
-    font-weight: 800;
 }
 .popular-section .advertise-picture img{
     width: 540px;
     height: 550px;
     border-radius: 16px;
+}
+
+/* Destination Styling */
+.destination{
+    max-width: 1170;
+    padding-top: 100px;
+    text-align: center;
+}
+.destination p{
+    width: 560px;
+    margin: 0 auto;
+    line-height: 25px;
+}
+.destination .maldives-indonesia{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    border-radius: 16px;
+    margin-top: 40px;
+}
+.destination .lanka-america-kashmir{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+.destination .bangladesh-bandarban{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
 }
 
 
