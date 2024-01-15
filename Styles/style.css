@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Mulish:wght@400;600;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+body{
+    font-family: 'Mulish', sans-serif;
+}
+
+.btn-primary{
+    width: 120px;
+    height: 35px;
+    border-radius: 8px;
+    background: #FFF;
+    padding-left: 10px;
+    border: 0px;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: #FF5400;
+}
+
+/* Banner Style */
+.banner-section{
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80), rgba(19, 19, 24, 0.00)), url('../Images/Group13.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    max-width: 1170px;
+    border-radius: 16px;
+    margin: 0 auto;
+}
+.banner-section .banner-heading{
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 106px;
+}
+.banner-section .banner-para{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 676px;
+    text-align: center;
+    padding-left: 247px;
+}
+.option-bar{
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin-left: 300px;
+}
+.option-bar .where-go{
+    width: 120px;
+    height: 32px;
+    border-radius: 8px;
+    background: #FFF;
+    padding-left: 10px;
+    border: 0px;
+}
+.option-bar .date-selection{
+    width: 120px;
+    height: 35px;
+    border-radius: 8px;
+    background: #FFF;
+    padding-left: 10px;
+    padding-top: 1px;
+    border: 0px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 14px;
+    font-weight: 500;
+}
+.option-bar .tour-type-selection{
+    width: 120px;
+    height: 35px;
+    border-radius: 8px;
+    background: #FFF;
+    padding-left: 10px;
+    border: 0px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 14px;
+    font-weight: 500;
+}
+.option-bar .btn-primary{
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Part */
+
+/* Mobile Device */
