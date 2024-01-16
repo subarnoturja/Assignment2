@@ -1,4 +1,227 @@
 @media screen and (max-width: 600px) {
-    
-    
+
+/* Nav Bar Section */
+    nav{
+        padding-left: 20px;
+    }
+    .logo-title-heading{
+        flex-direction: row;
+        align-items: center;
+    }
+    .logo-title-heading h3{
+        font-size: 20px;
+    }
+    .logo-title-heading .special{
+        font-size: 20px;
+    }
+    .logo-title-heading img{
+        width: 60px;
+    }
+    .nav-heading{
+        display: none;
+    }
+
+
+/* Banner Section */
+    .banner-section{
+        max-width: 600px;
+        margin-left: 30px;
+        margin-right: 10px;
+    }
+    .banner-section .banner-heading{
+        padding-top: 10px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .banner-section .banner-para{
+        width: 300px;
+        padding-top: 0;
+        padding-left: 50px;
+        padding-bottom: 0px;
+    }
+    .option-bar{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 120px;
+        margin-bottom: 20px;
+    }
+/* Popular Section */
+    .popular-section{
+        flex-direction: column;
+        padding-top: 10px;
+        margin-right: 40px;
+    }
+    .popular-section .all-heading{
+        width: 400px;
+        margin-left: 30px;
+        font-size: 30px;
+    }
+    .popular-section .all-para{
+        width: 400px;
+        margin-left: 30px;
+    }
+    .popular-section .all-para-list{
+        width: 400px;
+    }
+    .read-more{
+        margin-bottom: 20px;
+        margin-left: 30px;
+    }
+    .popular-section .advertise-picture img{
+        width: 400px;
+        height: 400px;
+        margin-left: 15px;
+        padding-right: 20px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+/* Popular Destination */
+    .destination .all-heading{
+        font-size: 20px;
+        padding-top: 0;
+        margin-top: 0;
+        margin-left: 50px;
+        text-align: center;
+    }
+    .destination .all-para{
+        width: 400px;
+        margin-left: 30px;
+    }
+    .destination .maldives-indonesia{
+        flex-direction: column;
+    }
+    .maldives-indonesia img{
+        width: 400px;
+        margin-left: 20px;
+    }
+    .maldives-indonesia  p{
+        margin-top: 90px;
+        margin-left: 180px;
+    }
+    .lanka-america-kashmir{
+        flex-direction: column;
+    }
+    .lanka-america-kashmir img{
+        width: 400px;
+        margin-left: 20px;
+    }
+    .lanka-america-kashmir p{
+        margin-top: 100px;
+        margin-left: 150px;
+    }
+    .bangladesh-bandarban{
+        flex-direction: column;
+    }
+    .bangladesh-bandarban img{
+        width: 400px;
+        margin-left: 20px;
+    }
+    .bangladesh-bandarban p{
+        margin-top: 90px;
+        margin-left: 120px;
+    }
+
+/* Why Choose Us */
+    .choose-us .all-heading{
+        padding-top: 10px;
+        font-size: 30px;
+    }
+    .choose-us .all-para{
+        width: 400px;
+        margin-left: 30px;
+    }
+    .two-boxes{
+        flex-direction: column;
+        margin-left: 20px;    
+    }
+    .handpicked-hotels{
+        width: 400px;
+    }
+    .world-class-service{
+        width: 400px;
+    }
+    .best-price{
+        margin-left: 30px;
+        width: 400px;
+    }
+    .mini-heading{
+        margin-bottom: 5px;
+        margin-top: 10px;
+    }
+    .mini-para{
+        width: 350px;
+        margin-right: 20px;
+    }
+    .logo{
+        padding-bottom: 0px;
+    }
+
+/* Newsletter Section */
+    .newsletter-picture{
+        flex-direction: column;
+    }
+    .newsletter-box{
+        width: 400px;
+        height: 422px;
+        margin-left: 30px;
+    }
+    .insert-part{
+        width: 290px;
+        height: 52px;
+    }
+    .line{
+        width: 310px;
+    }
+    .subscribe{
+        width: 315px;
+        height: 52px;
+    }
+    .picture-part img{
+        width: 410px;
+        height: 300px;
+        margin-left: 30px;
+    }
+    .discount-area{
+        width: 180px;
+        height: 90px;
+        bottom: 120px;
+        left: 255px;
+    }
+    .discount-area .travel{
+        font-size: 15px;
+    }
+    .discount-area .save{
+        font-size: 20px;
+    }
+
+/* Footer */
+    .footer{
+        width: 500px;
+        height: 500px;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .logo-title{
+        padding-top: 50px;
+        align-items: center; 
+        margin-right: 50px;
+    }
+    .footer .all-para{
+        width: 300px;
+        margin-right: 110px;
+    }
+    .footer .social-media{
+        margin-right: 70px;
+    }
+    .line2{
+        width: 320px;
+        margin-left: 90px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .hamburger{
+        display: none;
+    }
 }

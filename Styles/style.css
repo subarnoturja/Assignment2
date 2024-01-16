@@ -65,6 +65,7 @@ ul > li{
     font-size: 18px;
 }
 
+
 /* Banner Styling */
 .banner-section{
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80), rgba(19, 19, 24, 0.00)), url('../Images/Group13.png');
@@ -163,14 +164,26 @@ ul > li{
     padding-right: 70px;
     line-height: 32px;
 }
+.popular-section .all-para{
+    margin: 0 auto;
+    width: 570px;
+    line-height: 25px;
+    color: rgba(19, 19, 24, 0.70);
+}
+.popular-section .all-para-list{
+    width: 570px;
+    line-height: 35px;
+    color: rgba(19, 19, 24, 0.70);
+}
 .popular-section .advertise-picture img{
-    width: 540px;
+    width: 500px;
     height: 550px;
     border-radius: 16px;
 }
 .read-more{
     width: 174px;
     height: 52px;
+    margin-top: 20px;
 }
 
 /* Destination Styling */
@@ -296,94 +309,6 @@ ul > li{
     margin-top: 20px; 
 }
 
-/* Deals & Discount Section Styling */
-.deals-discount{
-    text-align: center;
-    padding-top: 40px;
-}
-.deals-discount .all-para{
-    width: 643px;
-    margin: 0 auto;
-    line-height: 25px;
-}
-.deals-pictures{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
-    max-width: 1170px;
-    margin: 0 auto;
-    margin-top: 40px;
-}
-.accommodation{
-    display: flex;
-    gap: 30px;
-}
-.holiday-package{
-    width: 570px;
-    height: 50vh;
-    border-radius: 16px;
-    border: 2px solid #FFF;
-    background: rgba(255, 255, 255, 0.80);
-    backdrop-filter: blur(2.5px);
-    position: absolute;
-    margin: 50px 50px 55px 535px;
-    padding-left: 10px;
-}
-.holiday-package .price{
-    color: #FF5400;
-    font-size: 20px;
-    font-weight: 800;
-    line-height: normal;
-    margin-left: 35px;
-}
-.book-now{
-    width: 120px;
-    height: 50px;
-    margin-left: 35px;
-}
-.all-packages{
-    width: 180px;
-    height: 52px;
-    margin-top: 50px;
-    margin-left: 650px;
-}
-.holiday-package2{
-    width: 570px;
-    height: 50vh;
-    border-radius: 16px;
-    border: 2px solid #FFF;
-    background: rgba(255, 255, 255, 0.80);
-    backdrop-filter: blur(2.5px);
-    position: absolute;
-    margin: 600px 30px;
-    padding-left: 10px;
-}
-.holiday-package2 .price{
-    color: #FF5400;
-    font-size: 20px;
-    font-weight: 800;
-    line-height: normal;
-    margin-left: 35px;
-}
-.holiday-package3{
-    width: 570px;
-    height: 50vh;
-    border-radius: 16px;
-    border: 2px solid #FFF;
-    background: rgba(255, 255, 255, 0.80);
-    backdrop-filter: blur(2.5px);
-    position: absolute;
-    margin: 1120px 50px 55px 535px;
-    padding-left: 10px;
-}
-.holiday-package3 .price{
-    color: #FF5400;
-    font-size: 20px;
-    font-weight: 800;
-    line-height: normal;
-    margin-left: 35px;
-}
-
 /* Newsletter Section Styling */
 
 .newsletter-picture{
@@ -489,7 +414,6 @@ ul > li{
 .logo-title img{
     width: 56px;
     height: 56px;
-    /* padding-top: 25px; */
 }
 .logo-title h3{
     color: #131318;
@@ -531,8 +455,3 @@ span{
     padding-top: 40px;
 }
 
-
-
-/* Responsive Part */
-
-/* Mobile Device */
