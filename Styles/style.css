@@ -64,6 +64,9 @@ ul > li{
     color: #FF5400;
     font-size: 18px;
 }
+.hamburger{
+    display: none;
+}
 
 
 /* Banner Styling */
