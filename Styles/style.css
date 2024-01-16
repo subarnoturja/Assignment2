@@ -167,6 +167,9 @@ ul > li{
     padding-right: 70px;
     line-height: 32px;
 }
+.popular-section .all-heading{
+    padding-top: 0;
+}
 .popular-section .all-para{
     margin: 0 auto;
     width: 570px;
@@ -182,6 +185,7 @@ ul > li{
     width: 500px;
     height: 550px;
     border-radius: 16px;
+    padding-top: 30px;
 }
 .read-more{
     width: 174px;
