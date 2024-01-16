@@ -403,10 +403,61 @@ body{
 }
 
 /* Footer Section Styling */
+.footer{
+    width: 1510px;
+    height: 502px;
+    margin-top: 100px;  
+    background: rgba(19, 19, 24, 0.05);
+}
 .logo-title{
     display: flex;
     gap: 15px;
-    justify-content: center;    
+    justify-content: center;   
+    padding-top: 120px; 
+}
+.logo-title img{
+    width: 56px;
+    height: 56px;
+    padding-top: 25px;
+}
+.logo-title h3{
+    color: #131318;
+    font-size: 32px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.footer .all-para{
+    width: 769px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 25px;
+    padding-left: 30px;
+}
+span{
+    color: #FF5400;
+    font-size: 32px;
+    font-weight: 800;
+}
+.footer .social-media{
+    text-align: center;
+    margin-top: 35px;
+    padding-left: 30px;
+}
+.line2{
+    border: solid rgba(128, 128, 128, 0.108);
+    width: 872px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding-top: 60px;
+    height: 1px;
+    margin-left: 330px;
+}
+.reserved{
+    text-align: center;
+    padding-top: 40px;
 }
 
 
