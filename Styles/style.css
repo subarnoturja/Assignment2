@@ -445,6 +445,33 @@ ul > li{
     height: 1px;
     margin-left: 40px;
 }
+.discount-area{
+    width: 250px;
+    height: 90px;
+    border-radius: 16px;
+    background: #FF5400;
+    transform: rotate(-19.625deg);
+    position: relative;
+    bottom: 130px;
+    left: 418px;
+}
+.discount-area .travel{
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 20px;
+    margin: 0;
+}
+.discount-area .save{
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+    padding-bottom: 60px;
+    margin: 0;
+    padding: 0;
+}
 
 /* Footer Section Styling */
 .footer{
@@ -462,7 +489,7 @@ ul > li{
 .logo-title img{
     width: 56px;
     height: 56px;
-    padding-top: 25px;
+    /* padding-top: 25px; */
 }
 .logo-title h3{
     color: #131318;
@@ -503,9 +530,6 @@ span{
     text-align: center;
     padding-top: 40px;
 }
-
-
-
 
 
 
