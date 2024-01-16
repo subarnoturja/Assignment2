@@ -27,6 +27,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     max-width: 1170px;
+    width: 100%;
     padding-left: 160px;
 }
 nav .nav-heading > ul{
@@ -67,7 +68,6 @@ ul > li{
 .hamburger{
     display: none;
 }
-
 
 /* Banner Styling */
 .banner-section{
@@ -316,8 +316,41 @@ ul > li{
     margin-top: 20px; 
 }
 
-/* Newsletter Section Styling */
+/* Perfect Place Styling */
+.perfect-place{
+    max-width: 1170;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    gap: 120px; 
+}
+.written-part{
+    width: 448px;
+}
+.written-part .all-para{
+    width: 520px;
+    line-height: 25px;
+    color: rgba(19, 19, 24, 0.70);
+}
+.written-part ul{
+    width: 500px;
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px
+}
+.see-more{
+    width: 160px;
+    height: 45px;
+}
+.youtube-video{
+    width: 600px;
+    height: 380px;
+    padding-top: 30px;
+}
 
+/* Newsletter Section Styling */
 .newsletter-picture{
     display: flex;
     justify-content: space-around;
@@ -462,3 +495,12 @@ span{
     padding-top: 40px;
 }
 
+
+@media screen and (min-width: 600px) and (max-width: 992) {
+    .banner-section{
+        width: 100%;
+        max-width: 1170px;
+        margin-left: 50px;
+        margin-right: 30px;
+    }
+}

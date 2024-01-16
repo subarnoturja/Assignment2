@@ -7,26 +7,27 @@
     .logo-title-heading{
         flex-direction: row;
         align-items: center;
+        justify-content: center;
     }
     .logo-title-heading h3{
         font-size: 20px;
+        padding-top: 30px;
     }
     .logo-title-heading .special{
         font-size: 20px;
     }
     .logo-title-heading img{
-        width: 60px;
+        width: 50px;
     }
     .nav-heading{
         display: none;
     }
 
-
 /* Banner Section */
     .banner-section{
-        max-width: 600px;
+        width: 500px;
         margin-left: 30px;
-        margin-right: 10px;
+        margin-right: 20px;
     }
     .banner-section .banner-heading{
         padding-top: 10px;
@@ -34,7 +35,7 @@
         margin-bottom: 0;
     }
     .banner-section .banner-para{
-        width: 300px;
+        width: 400px;
         padding-top: 0;
         padding-left: 50px;
         padding-bottom: 0px;
@@ -43,7 +44,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-left: 120px;
+        margin-left: 170px;
         margin-bottom: 20px;
     }
 /* Popular Section */
@@ -69,10 +70,10 @@
         margin-left: 30px;
     }
     .popular-section .advertise-picture img{
-        width: 400px;
+        width: 500px;
         height: 400px;
-        margin-left: 15px;
-        padding-right: 20px;
+        margin-left: 30px;
+        margin-right: 40px;
         margin-bottom: 0px;
         padding-bottom: 0px;
     }
@@ -92,8 +93,8 @@
         flex-direction: column;
     }
     .maldives-indonesia img{
-        width: 400px;
-        margin-left: 20px;
+        width: 500px;
+        margin-left: 30px;
     }
     .maldives-indonesia  p{
         margin-top: 90px;
@@ -103,8 +104,8 @@
         flex-direction: column;
     }
     .lanka-america-kashmir img{
-        width: 400px;
-        margin-left: 20px;
+        width: 500px;
+        margin-left: 30px;
     }
     .lanka-america-kashmir p{
         margin-top: 100px;
@@ -114,8 +115,8 @@
         flex-direction: column;
     }
     .bangladesh-bandarban img{
-        width: 400px;
-        margin-left: 20px;
+        width: 500px;
+        margin-left: 30px;
     }
     .bangladesh-bandarban p{
         margin-top: 90px;
@@ -133,17 +134,17 @@
     }
     .two-boxes{
         flex-direction: column;
-        margin-left: 20px;    
+        margin-left: 30px;    
     }
     .handpicked-hotels{
-        width: 400px;
+        width: 500px;
     }
     .world-class-service{
-        width: 400px;
+        width: 500px;
     }
     .best-price{
         margin-left: 30px;
-        width: 400px;
+        width: 500px;
     }
     .mini-heading{
         margin-bottom: 5px;
@@ -156,29 +157,58 @@
     .logo{
         padding-bottom: 0px;
     }
+/* Perfect Place */
+    .perfect-place{
+        flex-direction: column;
+    }
+    .written-part .all-heading{
+        padding-top: 10px;
+        font-size: 30px;
+        margin-left: 40px;
+    }
+    .written-part .all-para{
+        width: 470px;
+        margin-left: 30px;
+    }
+    .written-part ul{
+        width: 490px;
+        margin-left: 30px;
+    }
+    .see-more{
+        width: 140px;
+        height: 45px;
+        margin-left: 30px;
+    }
+    .youtube-video{
+        margin-left: 40px;
+        margin-top: 0px;
+        width: 450px;
+        height: 350px;
+    }
+
 
 /* Newsletter Section */
     .newsletter-picture{
         flex-direction: column;
     }
     .newsletter-box{
-        width: 400px;
+        width: 460px;
         height: 422px;
         margin-left: 30px;
     }
     .insert-part{
-        width: 290px;
+        width: 350px;
         height: 52px;
     }
     .line{
         width: 310px;
     }
     .subscribe{
-        width: 315px;
+        width: 370px;
         height: 52px;
     }
     .picture-part img{
-        width: 410px;
+        width: 500px;
         height: 300px;
         margin-left: 30px;
     }
@@ -186,7 +216,7 @@
         width: 180px;
         height: 90px;
         bottom: 120px;
-        left: 255px;
+        left: 285px;
     }
     .discount-area .travel{
         font-size: 15px;
@@ -197,7 +227,7 @@
 
 /* Footer */
     .footer{
-        width: 500px;
+        width: 555px;
         height: 500px;
         align-items: center;
         margin-top: 10px;
@@ -220,8 +250,3 @@
     }
 }
 
-@media screen and (max-width: 990px) {
-    .hamburger{
-        display: none;
-    }
-}
