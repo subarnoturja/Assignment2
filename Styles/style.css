@@ -20,9 +20,6 @@ body{
     font-size: 40px;
     font-weight: 800; 
 }
-.all-para{
-    color: rgba(19, 19, 24, 0.70);
-}
 
 /* Banner Styling */
 .banner-section{
@@ -140,10 +137,12 @@ body{
 .destination .all-heading{
     text-align: center;
 }
-.destination p{
-    width: 560px;
+.destination .all-para{
     margin: 0 auto;
+    text-align: center;
+    width: 600px;
     line-height: 25px;
+    color: rgba(19, 19, 24, 0.70);
 }
 .destination .maldives-indonesia{
     display: flex;
@@ -196,9 +195,11 @@ body{
     padding-top: 40px;
 }
 .choose-us .all-para{
-    width: 643px;
+    text-align: center;
+    width: 650px;
     margin: 0 auto;
     line-height: 25px;
+    color: rgba(19, 19, 24, 0.70);
 }
 .handpicked-hotels{
     width: 573px;
@@ -339,11 +340,74 @@ body{
     margin-left: 35px;
 }
 
+/* Newsletter Section Styling */
 
+.newsletter-picture{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 100px;
+    gap: 24px;
+}
+.newsletter-box{
+    width: 474px;
+    height: 422px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+.newsletter-box h4{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 40px;
+    padding-top: 10px;
+}
+.newsletter-box p{
+    width: 350px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 40px;
+}
+.input-section{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+.insert-part{
+    width: 360px;
+    height: 52px;
+    border: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 20px;
+    padding-left: 20px;   
+}
+.subscribe{
+    text-align: center;
+    width: 380px;
+    height: 52px;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding-left: 20px;   
+}
+.line{
+    border: solid rgba(128, 128, 128, 0.108);
+    width: 380px;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    height: 1px;
+    margin-left: 40px;
+}
 
-
-
-
+/* Footer Section Styling */
+.logo-title{
+    display: flex;
+    gap: 15px;
+    justify-content: center;    
+}
 
 
 
