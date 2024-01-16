@@ -47,6 +47,18 @@
         margin-left: 170px;
         margin-bottom: 20px;
     }
+    .option-bar .date-selection{
+        width: 130px;
+    }
+    .option-bar .tour-type-selection{
+        width: 130px;
+    }
+    .option-bar .find-button{
+        width: 130px;
+        margin-right: 10px;
+        margin-top: 5px
+    }
+
 /* Popular Section */
     .popular-section{
         flex-direction: column;
@@ -82,12 +94,12 @@
         font-size: 20px;
         padding-top: 0;
         margin-top: 0;
-        margin-left: 50px;
+        margin-left: 120px;
         text-align: center;
     }
     .destination .all-para{
         width: 400px;
-        margin-left: 30px;
+        margin-left: 60px;
     }
     .destination .maldives-indonesia{
         flex-direction: column;
@@ -125,12 +137,13 @@
 
 /* Why Choose Us */
     .choose-us .all-heading{
+        margin-left: 130px;
         padding-top: 10px;
         font-size: 30px;
     }
     .choose-us .all-para{
         width: 400px;
-        margin-left: 30px;
+        margin-left: 60px;
     }
     .two-boxes{
         flex-direction: column;
